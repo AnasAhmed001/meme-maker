@@ -24,7 +24,7 @@ const App: React.FC = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading memes...</p>;
+    return <p className='text-center items-center text-4xl'>Loading memes...</p>;
   }
 
   return (
